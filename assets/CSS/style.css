@@ -1,0 +1,53 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header,
+footer {
+    padding-left: 20px;
+    width: 100%;
+    height: 100px;
+    color: white;
+    background: red;
+}
+
+header h1 {
+    padding-top: 16px;
+
+}
+
+section {
+    width: 100%;
+}
+
+section aside {
+    width: 15%;
+    float: left;
+    color: #fff;
+    padding-left: 20px;
+    background: #37b437;
+}
+
+aside h3 {
+    margin: 20px 0px;
+}
+
+aside ul li {
+    list-style: none;
+    margin-top: 13px;
+    border-bottom: 2px solid #fff;
+}
+
+section main {
+    width: 85%;
+    float: left;
+    text-align: justify;
+    padding: 15px 20px;
+}
+
+main h2 {
+    margin: 20px 0px;
+    color: blue;
+}
